@@ -13,6 +13,8 @@ server:
   port: 10000
 # Config de el servidor  
 eureka: 
+  instance: 
+    hostname: ${servidor}
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
